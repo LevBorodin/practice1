@@ -1,0 +1,57 @@
+#photo3{
+    position: absolute;
+    left: 260px;
+    top: 350px;
+    opacity: 0;
+    transition: 300ms;
+}
+#photo1{
+    position: absolute;
+    left: 260px;
+    top: 350px;
+    opacity: 0;
+    transition: 300ms;
+}
+#photo2{
+    position: absolute;
+    left: 300px;
+    top: 350px;
+    opacity: 0;
+    transition: 300ms;
+}
+#ph1:checked ~ #photo1{
+    opacity: 1;
+}
+#ph2:checked ~ #photo2{
+    opacity: 1;
+}
+#ph3:checked ~ #photo3{
+    opacity: 1;
+}
+.placeforphoto1{
+    height: 20vh;
+    width: 10vw;
+    margin-left: 1vw;
+    background: url(https://i.ibb.co/D5ffzTt/flower1.jpg) center no-repeat;
+    background-size: cover;
+    transition: 200ms;
+}
+.placeforphoto2{
+    height: 20vh;
+    width: 10vw;
+    margin-left: 1vw;
+    background: url(https://i.ibb.co/3RW0QLv/flower1right.jpg) center no-repeat;
+    background-size: cover;
+    transition: 200ms;
+}
+.placeforphoto3{
+    height: 20vh;
+    width: 10vw;
+    margin-left: 1vw;
+    background: url(https://i.ibb.co/PjNQ8yj/floswer1left.jpg) center no-repeat;
+    background-size: cover;
+    transition: 200ms;
+}
+.placeforphoto1:hover, .placeforphoto2:hover, .placeforphoto3:hover{
+    transform: scale(1.1);
+}

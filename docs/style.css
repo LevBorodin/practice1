@@ -1,0 +1,225 @@
+.main{
+    background: linear-gradient(to bottom, rgb(152, 176, 255), rgb(84, 124, 255));
+    overflow: hidden;
+}
+.header{
+    background: linear-gradient(to bottom left, rgb(67, 0, 253), rgb(234, 0, 255));
+}
+.item{
+    /* border: 1px solid black; */
+    transition: 100ms linear;
+    text-decoration: none;
+    color: black;
+}
+.item:hover{
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+.size{
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+.size1{
+    height: 35vw;
+    width: auto;
+}
+.order{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    border: transparent;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 200ms linear;
+}
+.order:hover{
+    background-color: rgb(97, 97, 97);
+}
+.price{
+    font-weight: 900;
+}
+.name{
+    margin: 0;
+}
+.logo{
+    height: 10vw;
+    width: auto;
+    margin: 2vw;
+}
+.ppl{
+    box-sizing: border-box;
+}
+.f1{
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+    border-bottom: 4px solid #cc00ff;
+}
+.i1, .b1{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.i1{
+    width: 100%;
+    height: 42px;
+    padding-left: 15px;
+}
+.b1{
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.b1::before{
+    content: "\f178";
+    font-family: FontAwesome;
+    font-size: 20px;
+    color: #cc00ff;
+}
+.line{
+    height: 5px;
+    background-color: black;
+}
+.line1{
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+}
+.futter{
+    background-color: rgb(49, 45, 63);
+    color: white;
+}
+.al{
+    text-decoration: none;
+    color: white;
+}
+.reg{
+    color: black;
+    text-decoration: none;
+}
+.sqare{
+    height: 25vw;
+    width: 25vw;
+    border: 2px solid black;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background-color: rgb(241, 248, 255);
+}
+.place{
+    height: 100vh;
+    background: linear-gradient(to bottom, rgb(152, 176, 255), rgb(84, 124, 255));
+    margin-left: 0px;
+}
+.btnreg{
+    background-color: rgb(5, 194, 5);
+    color: white;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    transition: 200ms linear;
+}
+.btnreg:hover{
+    background-color: rgb(0, 158, 0);
+}
+.back{
+    text-decoration: none;
+    color: rgb(158, 158, 158);
+}
+.back:hover{
+    color: black;
+}
+.placeee{
+    background-color: white;
+    height: 43vw;
+    width: 90vw;
+}
+.pain{
+    background: linear-gradient(to bottom, rgb(152, 176, 255), rgb(84, 124, 255));
+    height: 100vh;
+}
+.formargin{
+    margin: 0px;
+}
+.change1{
+    background: url('https://www.rosphoto.com/images/u/articles/1510/4_8.jpg') 50% 50% no-repeat;
+    background-size: contain;
+    width: 100px;
+    height: 50px;
+}
+.btnimg{
+    width: 12vw;
+    height: auto;
+}
+.btnsize{
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: auto;
+    height: auto;
+}
+#ph1, #ph2, #ph3{
+    display: none;
+}
+.filterDiv {
+    display: none;
+}
+.show {
+    display: contents;
+}
+.btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgba(221, 221, 221, 0);
+}
+.menubtns, .menutxt{
+    background-color: rgba(0, 255, 255, 0);
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+.menubtns{
+    border: 2px solid black;
+    border-radius: 30px;
+    transition: 300ms;
+}
+.menubtns:hover{
+    border: 2px solid rgb(0, 162, 255);
+}
+.menutxt:hover{
+    color: black;
+}
+.cartshow{
+    color: black;
+    position: relative;
+}
+.carticon::before{
+    content: "\f291";
+    font-family: FontAwesome;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 18px;
+    left: -13px;
+}
+.hide{
+    display: none;
+}
+.plus, .minus{
+    border: 1px solid green;
+    background-color: rgb(64, 187, 64);
+    color: black;
+    border-radius: 20px;
+    transition: 200ms;
+}
+.plus:hover, .minus:hover{
+    background-color: rgb(59, 160, 59);
+}
