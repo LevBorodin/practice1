@@ -40,7 +40,6 @@ const deleteFunction = id => {
 }
 
 const renderCart = () => {
-    console.log(cart);
     let a = document.getElementById("test").innerHTML;
     let a1 = document.getElementById("test1").innerHTML;
     let out="";
@@ -52,13 +51,13 @@ const renderCart = () => {
     b= 0;
     b += out;
     b = parseInt(b, 10);
-    console.log(b);
     document.getElementById("test").innerHTML = b;
     b1= 0;
     b1 += out;
     b1 = parseInt(b1, 10);
-    console.log(b1);
     document.getElementById("test1").innerHTML = b1;
 }
 
-renderCart();
+window.onload = () => renderCart();
+
+// row content d-flex justify-content-between mx-1
