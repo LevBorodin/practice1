@@ -1,9 +1,11 @@
 .main{
-    background: linear-gradient(to bottom, rgb(152, 176, 255), rgb(84, 124, 255));
+    /* background: linear-gradient(to bottom, rgb(152, 176, 255), rgb(84, 124, 255)); */
+    
     overflow: hidden;
+    background: url(https://img4.goodfon.com/wallpaper/nbig/7/ba/tekstura-tsvety-flower-seamless-pattern.jpg);
 }
 .header{
-    background: linear-gradient(to bottom left, rgb(67, 0, 253), rgb(234, 0, 255));
+    background: linear-gradient(to bottom, rgb(255, 238, 152), rgb(255, 204, 84));
 }
 .item{
     /* border: 1px solid black; */
@@ -57,7 +59,7 @@
     width: 300px;
     margin: 0 auto;
     background: rgb(255, 255, 255);
-    border-bottom: 4px solid #cc00ff;
+    border-bottom: 4px solid #fa7c7c;
 }
 .i1, .b1{
     border: none;
@@ -81,7 +83,7 @@
     content: "\f178";
     font-family: FontAwesome;
     font-size: 20px;
-    color: #cc00ff;
+    color: #fa7c7c;
 }
 .line{
     height: 5px;
@@ -139,7 +141,7 @@
     width: 90vw;
 }
 .pain{
-    background: linear-gradient(to bottom, rgb(152, 176, 255), rgb(84, 124, 255));
+    background: url(https://img4.goodfon.com/wallpaper/nbig/7/ba/tekstura-tsvety-flower-seamless-pattern.jpg);
     height: 100vh;
 }
 .formargin{

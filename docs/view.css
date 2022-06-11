@@ -14,7 +14,7 @@
 }
 #photo2{
     position: absolute;
-    left: 300px;
+    left: 260px;
     top: 350px;
     opacity: 0;
     transition: 300ms;
@@ -32,7 +32,7 @@
     height: 20vh;
     width: 10vw;
     margin-left: 1vw;
-    background: url(https://i.ibb.co/D5ffzTt/flower1.jpg) center no-repeat;
+    background: url(https://dicentra.ua/assets/images/products/1809/fer-15-01-22-avalanchj-15-rose-00161.jpg?scale.height=300) center no-repeat;
     background-size: cover;
     transition: 200ms;
 }
@@ -40,7 +40,7 @@
     height: 20vh;
     width: 10vw;
     margin-left: 1vw;
-    background: url(https://i.ibb.co/3RW0QLv/flower1right.jpg) center no-repeat;
+    background: url(https://dicentra.ua/assets/images/products/1809/fer-15-01-22-avalanchj-15-rose-00162.jpg?scale.height=300g) center no-repeat;
     background-size: cover;
     transition: 200ms;
 }
@@ -48,10 +48,17 @@
     height: 20vh;
     width: 10vw;
     margin-left: 1vw;
-    background: url(https://i.ibb.co/PjNQ8yj/floswer1left.jpg) center no-repeat;
+    background: url(https://dicentra.ua/assets/images/products/1809/fer-15-01-22-avalanch-11-00028.jpg?scale.height=300) center no-repeat;
     background-size: cover;
     transition: 200ms;
 }
 .placeforphoto1:hover, .placeforphoto2:hover, .placeforphoto3:hover{
     transform: scale(1.1);
+}
+
+.side-panel-input[type="radio"]:checked+label {
+    filter: grayscale(0%);
+}
+.side-panel-input[type="radio"]+label {
+    filter: grayscale(100%);
 }
