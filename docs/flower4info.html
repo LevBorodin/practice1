@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowers Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="view.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="headermain row">
+        <div class="row header justify-content-center align-items-center ms-1 me-1">
+            <div class="col-3 text-center">
+                <a href="index.html"><img class="logo" src="content/logo.png" alt="logot"></a>
+            </div>
+            <div class="row col-6">
+                <div class="col-12 text-center mb-4">
+                    <button class="menubtns py-1 px-3 mx-1"><a href="index.html" class="menutxt">Главная</a></button>
+                    <button class="menubtns py-1 px-3 mx-1"><a href="index.html" class="menutxt">Каталог товаров</a></button>
+                    <button class="menubtns py-1 px-3 mx-1"><a href="#about" class="menutxt">Обратная cвязь</a></button>
+                </div>
+                <div class="col text-center ppl">
+                    <form class="f1">
+                        <input class="i1" type="text" placeholder="Искать здесь...">
+                        <button class="b1" type="submit"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="col-1 text-center">
+                <a href="autorization.html" class="reg">Авторизация</a><br>
+                <a href="regestration.html" class="reg">Регистрация</a>
+            </div>
+            <div class="col-2 text-center"><a href="#" class="carticon"></a><div class="cartshow" id="test">0</div></div>
+        </div>
+    </div>
+    <div class="line1">
+        <div class="w-100"></div>
+    </div>
+    <div class="pain">
+        <a name="showthis"></a>
+        <div class="text-center pt-3"><h2>Букет 11 Желтых Тюльпанов</h2></div>
+        <div class="d-flex justify-content-center mt-4">
+            <div class="row placeee">
+                <div class="row col-2 men container-fluid align-items-center text-center">
+                    <input class="side-panel-input" type="radio" name="radio" id="ph1" checked>
+                    <label for="ph1" id="gg"><div class="placeforphoto1111"></div></label>
+                    <input class="side-panel-input" type="radio" name="radio" id="ph2">
+                    <label for="ph2"><div class="placeforphoto2222"></div></label>
+                    <input class="side-panel-input" type="radio" name="radio" id="ph3">
+                    <label for="ph3"><div class="placeforphoto3333"></div></label>
+
+                    <img src="https://dicentra.ua/assets/images/products/1813/x6a827b32ec2ef0f7f4e32fd4ffcd6bed99598ad1.jpg,qscale.height=300.pagespeed.ic.rKJSRBMwwt.webp" alt="cont" class="size1" id="photo1">
+                    <img src="https://dicentra.ua/assets/images/products/1813/9e2bd2b383592184c59f536582825d3742ae228b.jpg?scale.height=300" alt="cont" class="size1" id="photo2">
+                    <img src="https://dicentra.ua/assets/images/products/1813/ab8f2a146b51c360d3a892b638498b34a9c2b3d4.jpg?scale.height=300" alt="cont" class="size1" id="photo3">
+                </div>
+                <div class="row col-5 pic container-fluid align-items-center text-center">
+                </div>
+                <div class="row col-5 disc formargin container-fluid align-items-center">
+                    <div class="col-12"></div>
+                    <div class="col-12"></div>
+                    <div class="col-12">
+                        <h2>369 грн/шт</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col ms-2 mb-1">В корзине:</div>
+                            <div class="col" id="test1">0</div>
+                            <div class="col-7"></div>
+                        </div>
+                        <button class="plus px-4 py-1 ms-1" data-id="fh3hd">В корзину</button>
+                        <button class="minus px-3 py-1 mb-4" data-id="fh3hd">-</button>
+                        <div class="ms-1 py-2"><input type="button" value="Оформить заказ" class="order"></div>
+                    </div>
+                    <div class="col">
+                        <h1>Описание</h1>
+                        <div class="ms-3">
+                            <p><b>Состав:</b> Тюльпаны желтые (11 шт.)</p>
+                            <p><b>Внимание:</b> букет внешне может отличаться от изображения на сайте, состав остается без изменений.</p>
+                        </div>
+                    </div>
+                    <div class="col-12"></div>
+                    <div class="col-12"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="line">
+        <div class="w-100"></div>
+    </div>
+    <a name="about"></a>
+    <div class="futter row justify-content-between text-center">
+        <div class="end col-3 m-3">
+            <h1>О нас</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ratione beatae modi reiciendis optio est ab molestiae corporis fugiat eaque quo, quae ad suscipit possimus cupiditate dolorem ipsa repellat iure.</p>
+        </div>
+        <div class="end col-3 m-3">
+            <h1>Клиентам</h1>
+            <a href="#" class="al">placeholder</a><br>
+            <a href="#" class="al">placeholder</a><br>
+            <a href="#" class="al">placeholder</a><br>
+            <a href="#" class="al">placeholder</a><br>
+        </div>
+        <div class="end col-3 m-3">
+            <h1>О компании</h1>
+            <a href="#" class="al">placeholder</a><br>
+            <a href="#" class="al">placeholder</a>
+        </div>
+    </div>
+    <script src="cartscript.js"></script>
+</body>
+</html>

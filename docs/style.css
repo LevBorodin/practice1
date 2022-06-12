@@ -14,13 +14,14 @@
     color: black;
 }
 .item:hover{
-    background-color: white;
+    background-color: #ffdf7b;
     border-radius: 5px;
     color: black;
 }
 .size{
     height: 300px;
     width: auto;
+    max-width: 100%;
     border-radius: 10px;
 }
 .size1{
