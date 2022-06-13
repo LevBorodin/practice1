@@ -1,6 +1,4 @@
 .main{
-    /* background: linear-gradient(to bottom, rgb(152, 176, 255), rgb(84, 124, 255)); */
-    
     overflow: hidden;
     background: url(https://img4.goodfon.com/wallpaper/nbig/7/ba/tekstura-tsvety-flower-seamless-pattern.jpg);
 }
@@ -8,7 +6,6 @@
     background: linear-gradient(to bottom, rgb(255, 238, 152), rgb(255, 204, 84));
 }
 .item{
-    /* border: 1px solid black; */
     transition: 100ms linear;
     text-decoration: none;
     color: black;
